@@ -8,6 +8,6 @@ elif (input1 == "twee"):
     print (test["twee"])
 elif (input1 == "drie"):
     print(test["drie"]
-else:
-    print("geen een, twee of drie ingevuld")    
+    else:
+        print("geen een, twee of drie ingevuld")    
 
