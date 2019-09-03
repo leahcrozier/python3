@@ -4,5 +4,14 @@ yes["4"] = "40"
 
 del yes["4"]
 
-for key in yes:
-    print(key,value)
+for key, value in dict.items(yes):
+       print(key, value)
+
+
+input1 = input()
+
+if (input1) in yes:
+        print("ja")
+else:
+        print("nee")
+        
