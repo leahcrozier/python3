@@ -17,4 +17,3 @@ if input1 in dict.items(yes):
 else:
         print("nee")
 
-
