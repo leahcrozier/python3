@@ -12,8 +12,11 @@ for key, value in dict.items(yes):
 
 input1 = input()
 
-if input1 in dict.items(yes):
+if input1 in key:
         print("ja")
 else:
         print("nee")
+
+
+
 
