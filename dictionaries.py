@@ -4,7 +4,8 @@ yes["4"] = "40"
 
 del yes["4"]
 
-print(yes["1"])
+print(yes["1"]);
+print("====================================================");
 
 for key, value in dict.items(yes):
        print(key, value)
