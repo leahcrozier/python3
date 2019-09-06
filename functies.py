@@ -1,12 +1,12 @@
 
-
+print("=========================1===========================")
 def helloworld():
     for i in range(10):
         print("Hello World!");
 
 helloworld()
 
-print("================================================")
+print("=========================2===========================")
 
 def tafelvanvijf():
     print(str(1*5))
@@ -20,7 +20,7 @@ def tafelvanvijf():
 
 tafelvanvijf()
 
-print("===================================================")
+print("=========================3===========================")
 
 def helloworldagain(x):
     for i in range(x):
@@ -29,5 +29,18 @@ def helloworldagain(x):
 
 
 helloworldagain(4)
+
+print("=========================4============================")
+
+
+zt = input("vul een getal in: ")
+def yeehaw():
+    for i in range(zt):
+        print("yeehaw")
+
+yeehaw()
+  
+
+
     
     
