@@ -33,8 +33,9 @@ helloworldagain(4)
 print("=========================4============================")
 
 
-zt = input("vul een getal in: ")
+
 def yeehaw():
+    zt = int(input("vul een getal in: "))
     for i in range(zt):
         print("yeehaw")
 
