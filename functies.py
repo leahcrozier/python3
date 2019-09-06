@@ -19,3 +19,15 @@ def tafelvanvijf():
 
 
 tafelvanvijf()
+
+print("===================================================")
+
+def helloworldagain(x):
+    for i in range(x):
+        print("Hello again, world!")
+  
+
+
+helloworldagain(4)
+    
+    
