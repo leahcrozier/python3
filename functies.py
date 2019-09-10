@@ -49,9 +49,14 @@ kerstboom("merry christmas")
      
 print("=========================6============================")
 
-def max_van_3():
-    return 3
+def max_van_3(x,y,z):
+    print (max(x,y,z))
 
-max_van_3()
+max_van_3(6,9,0)
+
+print("=========================7============================")
+
+
+
     
     
