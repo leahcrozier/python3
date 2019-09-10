@@ -30,8 +30,6 @@ helloworldagain(4)
 
 print("=========================4============================")
 
-
-
 def yeehaw():
     zt = int(input("vul een getal in: "))
     for i in range(zt):
@@ -41,7 +39,19 @@ yeehaw()
   
 print("=========================5============================")
 
+def kerstboom(x):
+    for i in range(len(x)):
+            l = slice (i+1)
+            print(x[l])
 
 
+kerstboom("aaaa")
+     
+print("=========================6============================")
+
+def max_van_3():
+    return 3
+
+max_van_3()
     
     
