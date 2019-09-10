@@ -45,7 +45,7 @@ def kerstboom(x):
             print(x[l])
 
 
-kerstboom("aaaa")
+kerstboom("merry christmas")
      
 print("=========================6============================")
 
