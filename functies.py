@@ -70,10 +70,13 @@ def is_priemgetal(x):
         for i in range(2,x):
             if (x % i) == 0:
                 print ("False")
+                break
             else:
                 print("True")
+                break
 
     else:
         print("False")
+        
     
 is_priemgetal(3)
