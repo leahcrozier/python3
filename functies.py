@@ -80,3 +80,17 @@ def is_priemgetal(x):
         
     
 is_priemgetal(3)
+
+print("=========================9============================")
+
+def is_palindrome(x):
+    L = x[::-1]
+    if x == L:
+        print("True")
+
+    else:
+        print("False")
+    
+is_palindrome("racecar")
+
+print("=========================10============================")
