@@ -30,12 +30,11 @@ helloworldagain(4)
 
 print("=========================4============================")
 
-def yeehaw():
-    zt = int(input("vul een getal in: "))
-    for i in range(zt):
+def yeehaw(x):
+    for i in range(x):
         print("yeehaw")
 
-yeehaw()
+yeehaw(3)
   
 print("=========================5============================")
 
@@ -97,9 +96,9 @@ print("=========================10============================")
 
 def reverse(x):
     x = x[::-1]
-    print(x)
+    return x
 
-reverse([2,4,5,6])
+print(reverse([2,4,5,6]))
 
 print("=========================11============================")
 
@@ -117,3 +116,34 @@ def addthing(array, string):
 
 print (addthing( ["a","potato","flew","around","my", "room"], "before"))
     
+print("=========================13============================")
+def secondthing(array, string):
+     array.insert(1, string)
+     return array
+
+print (secondthing( ["you're","good","duck",", ","you're", "just","like","your","father"] ,"no"))
+     
+print("=========================14============================")
+
+def deletething(array):
+    array.remove("the")
+    return array
+
+print(deletething( ["somebody","once","told","me","the"]))
+
+print("=========================14============================")
+
+def yeetusdeletus(array, string):
+    if string in array:
+        array.remove(string)
+        return array
+    else:
+        return array
+
+print(yeetusdeletus( ["it's", "epic", "gamer", "time", "!"] , "!"))
+
+print("=========================15============================")
+
+def createdict():
+    print("ok")
+createdict()
