@@ -110,6 +110,10 @@ def length(x):
 
 length([2,6,8,9,4,6])
     
-    
-    
+print("=========================12============================")    
+def addthing(array, string):
+    array.append(string)
+    return array
+
+print (addthing( ["a","potato","flew","around","my", "room"], "before"))
     
