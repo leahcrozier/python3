@@ -94,3 +94,12 @@ def is_palindrome(x):
 is_palindrome("racecar")
 
 print("=========================10============================")
+
+def reverse():
+    
+
+reverse()
+    
+    
+    
+    
