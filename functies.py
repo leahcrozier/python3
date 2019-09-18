@@ -144,9 +144,10 @@ print(yeetusdeletus( ["it's", "epic", "gamer", "time", "!"] , "!"))
 
 print("=========================15============================")
 
-def createdict(x):
-    dict= {}
-    for i in range(x):
-        
-        
-createdict(5)
+def createdict(n):
+    dict = {}
+    for i in range(n):
+        dict[i+1] = (i+1)*(i+1)
+    return dict
+
+print(createdict(5))
