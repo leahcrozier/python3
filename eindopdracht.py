@@ -17,26 +17,26 @@ def n1():
     print(assortiment)        
         
 def n2():
-    producttoevoeg = input("geef de naam van een product ")
-    bedragtoevoeg = int(input("geef het bedrag van het product "))
+    producttoevoeg = input("Geef de naam van een product: ")
+    bedragtoevoeg = int(input("Geef het bedrag van het product: "))
     assortiment[producttoevoeg] = bedragtoevoeg
-    print("dit zit er nu in je boodschappenmandje")
+    print("Dit zit er nu in je boodschappenmandje: ")
     n1()
     
 def n3():
     print(assortiment)
-    productverwijder = input("Geef de naam van een product die je wil verwijderen ")
+    productverwijder = input("Geef de naam van een product die je wil verwijderen: ")
 
     if productverwijder in assortiment:
         del assortiment[productverwijder]
         print(assortiment)
         return assortiment
     else:
-        print("Dat is geen product ")
+        print("Dat is geen product. ")
 
 def n4():
     print(assortiment)
-    productwijzigen = input("Geef de naam van een product die je wil wijzigen ")
+    productwijzigen = input("Geef de naam van een product die je wil wijzigen: ")
     
     if productwijzigen in assortiment:
         wijzig = input("Waarnaar ga je de product wijzigen? ")
@@ -51,14 +51,14 @@ def n5():
     kaas = True
     mandje = {}
     while kaas ==  True:
-        print("dit is wat we te koop hebben: ")
+        print("Dit is wat we te koop hebben: ")
         print(assortiment)
-        input0 = input("wil je (nog) iets kopen? ")
+        input0 = input("Wil je (nog) iets kopen? (ja / nee) : ")
         if input0 == "ja":
-            input1 = input("wat wil je kopen? ")
+            input1 = input("Wat wil je kopen? ")
             if input1 in mandje:
                 l = assortiment[input1]
-                r = int(input("hoeveel wil je ervan kopen? "))
+                r = int(input("Hoeveel wil je ervan kopen? "))
                 w = l*r
                 #x = assortiment.get(input1)
                 #print(x)
@@ -72,11 +72,11 @@ def n5():
         elif input0 == "nee":
             kaas = False
         else:
-            print("typ aub alleen 'ja' of 'nee'")
+            print("Typ aub alleen 'ja' of 'nee'")
     prijs = mandje.values()
     print(prijs)
         
-    print(mandje, "dit zit er nu in uw mandje")
+    print(mandje, "Dit zit er nu in uw mandje")
         
 def n6():
     print(assortiment)
